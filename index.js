@@ -12,6 +12,6 @@ app.on('ready',function(){
     //esto es para cargar un html local
     mainWindow.loadUrl('file://' + __dirname + '/index.html')
 
-  //  mainWindow.loadUrl('http://hadro.drovancal.com/login.html')
+    //mainWindow.loadUrl('http://hadro.drovancal.com/login.html')
     mainWindow.maximize()
 })
