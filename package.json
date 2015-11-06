@@ -2,10 +2,10 @@
   "name": "hadro-electron",
   "version": "1.0.0",
   "description": "Sistema de Gestión de Farmacias",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . HadroElectronApp --platform=win32 --arch=x64 --version=0.34.2"
+    "build": "electron-packager ./app HadroElectron --platform=win32 --arch=x64 --version=0.34.2"
   },
   "keywords": [
     "hadro",
@@ -15,9 +15,12 @@
   "author": "Jose Luis Orozco <handark@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "asar": "^0.8.2",
     "electron-packager": "^5.1.1",
     "electron-prebuilt": "^0.34.2",
-    "grunt-electron": "^2.0.1",
-    "load-grunt-tasks": "^3.3.0"
+    "fs-jetpack": "^0.7.0",
+    "gulp": "^3.9.0",
+    "q": "^1.4.1",
+    "rcedit": "^0.3.0"
   }
 }

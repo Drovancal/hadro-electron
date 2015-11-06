@@ -1,0 +1,6 @@
+{ 
+    "name": "hadro-electron",
+    "version": "1.0.0",
+    "description": "Sistema de Gestión de Farmacias",
+    "main": "main.js" 
+} 
